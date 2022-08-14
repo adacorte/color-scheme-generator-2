@@ -1,0 +1,57 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  background: #D1D5DB;
+}
+
+nav {
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.boxes {
+  height: 350px;
+  width: 100%;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.colors-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.hex-container {
+  display: flex;
+  flex-direction: row;
+  background: #D1D5DB;
+  height: 28px;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+}
+
+button {
+  cursor: pointer;
+  margin: 10px;
+}
+
+select {
+  margin: 10px;
+}
+
+input {
+  margin: 10px;
+}
+
+
